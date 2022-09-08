@@ -1,0 +1,29 @@
+{
+    "name": "moviet/htmini",
+    "description": "HTMini",
+    "authors": [
+        {
+            "name": "Moviet",
+            "email": "nomoviet@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
+        "illuminate/http": "^6.0 || ^7.0 || ^8.0",
+        "illuminate/view": "^6.0 || ^7.0 || ^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Moviet\\Htmini\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moviet\\Htmini\\HTMiniServiceProvider"
+            ]
+        }
+    }
+}
