@@ -19,6 +19,7 @@
             "Moviet\\Htmini\\": "src/"
         }
     },
+    "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
